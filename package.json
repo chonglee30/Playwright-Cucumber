@@ -1,0 +1,26 @@
+{
+  "name": "playwright-cucumber",
+  "version": "1.0.0",
+  "description": "BDD-Cucumber to write playwright test",
+  "main": "index.js",
+  "scripts": {
+     "cucumber": "cucumber-js --config config/cucumber.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chonglee30/Playwright-Cucumber.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chonglee30/Playwright-Cucumber/issues"
+  },
+  "homepage": "https://github.com/chonglee30/Playwright-Cucumber#readme",
+  "devDependencies": {
+    "@cucumber/cucumber": "^12.1.0",
+    "@playwright/test": "^1.54.1",
+    "@types/node": "^24.1.0",
+    "ts-node": "^10.9.2"
+  }
+}
